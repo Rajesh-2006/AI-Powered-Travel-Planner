@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import SystemMessage, HumanMessage
 
 # ✅ Ensure API key is securely set
-GOOGLE_API_KEY = "AIzaSyBLxpLN9baiu-sTxEcuhFB_qJs1S-Fk5Kc"
+GOOGLE_API_KEY = "API_KEY"
 if not GOOGLE_API_KEY:
     st.error("⚠️ Google GenAI API key is missing! Set GOOGLE_API_KEY as an environment variable.")
     st.stop()
